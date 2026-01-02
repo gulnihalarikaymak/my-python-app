@@ -9,4 +9,4 @@ def test_hello():
     client = app.test_client()
     reponse = client.get("/")
     assert reponse.status_code == 200
-    assert reponse.data == b"Hello from a Docker Container!"
+    assert b"Flask app is deployed on Azure" in response.data
