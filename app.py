@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return "This Flask app is deployed by GUL NİHAL ARİKAYMAK on Azure using Docker & Coolify with GitHub-based CI/CD "
+    return "This Flask app is deployed by GUL NIHAL ARIKAYMAK on Azure using Docker & Coolify with GitHub-based CI/CD "
 
 
 

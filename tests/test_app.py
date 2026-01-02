@@ -9,4 +9,4 @@ def test_hello():
     client = app.test_client()
     reponse = client.get("/")
     assert reponse.status_code == 200
-    assert reponse.data == b"This Flask app is deployed by GUL NİHAL ARİKAYMAK on Azure using Docker & Coolify with GitHub-based CI/CD "
+    assert reponse.data == b"This Flask app is deployed by GUL NIHAL ARIKAYMAK on Azure using Docker & Coolify with GitHub-based CI/CD "
